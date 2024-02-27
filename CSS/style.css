@@ -49,6 +49,7 @@ header {
 
 .navFlex i {
     font-size: 2em;
+    display: none;
 }
 
 .menu-nav {
@@ -180,10 +181,15 @@ margin: 0;
 
 @media screen and (max-width: 1600px) {
    
-     
+    
+    .menu-nav {
+        display: none;
+    }
+
     .navFlex i {
         display: block;
         align-items: center;
+        padding-right: 650px;
 
     }
    
